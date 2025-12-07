@@ -51,7 +51,7 @@ class CustomCssServerPlugin extends Plugin {
 ║             ╚═════╝╚══════╝╚══════╝                           ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
-    `;
+ 1.0   `;
 
     // Color codes for terminal
     const colors = {
