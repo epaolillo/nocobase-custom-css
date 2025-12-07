@@ -1,11 +1,11 @@
 /**
  * Plugin entry point for Nocobase Custom CSS
  */
-import ServerPlugin from './server';
-import CustomCssPlugin from './client';
+import CustomCssServerPlugin from './server';
+import CustomCssClientPlugin from './client';
 
-export const Server = ServerPlugin;
-export const Client = CustomCssPlugin;
+export const Server = CustomCssServerPlugin;
+export const Client = CustomCssClientPlugin;
 
 export default {
   Server,

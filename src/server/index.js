@@ -1,13 +1,24 @@
 /**
  * @file Server plugin implementation for Custom CSS
  */
+import { Plugin } from '@nocobase/server';
 
 /**
  * ServerPlugin class for the nocobase-custom-css plugin
  */
-class ServerPlugin {
-  constructor(options) {
-    this.app = options.app;
+class CustomCssServerPlugin extends Plugin {
+  /**
+   * afterAdd method called when the plugin is added
+   */
+  async afterAdd() {
+    // Plugin added to the system
+  }
+
+  /**
+   * beforeLoad method called before the plugin is loaded
+   */
+  async beforeLoad() {
+    // Plugin is about to load
   }
 
   /**
@@ -72,5 +83,5 @@ class ServerPlugin {
   }
 }
 
-export default ServerPlugin;
+export default CustomCssServerPlugin;
 
