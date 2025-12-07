@@ -1,11 +1,24 @@
 {
   "name": "nocobase-custom-css",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "NocoBase Custom CSS Plugin - Displays a welcome message on startup",
+  "main": "server.js",
+  "files": [
+    "dist",
+    "server.js",
+    "client.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "nocobase",
+    "plugin"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "@nocobase/client": "^1.0.0",
+    "@nocobase/server": "^1.0.0"
+  }
 }
